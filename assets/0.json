@@ -1,0 +1,20 @@
+{
+    "name": "Warlock #0001",
+    "symbol": "WAR",
+    "description": "Collection of warlocks on the blockchain.",
+    "image": "0.png",
+    "attributes": [
+      {
+        "trait_type": "Number",
+        "value": "0"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "0.png",
+          "type": "image/png"
+        }
+      ]
+    }
+  }

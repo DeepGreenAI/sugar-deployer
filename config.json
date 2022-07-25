@@ -1,0 +1,27 @@
+{
+  "price": 1.0,
+  "number": 10,
+  "symbol": "WAR",
+  "sellerFeeBasisPoints": 500,
+  "gatekeeper": null,
+  "solTreasuryAccount": "GkbcGkYAfypfDtfc5oSPFNYXvfJoaUhUPq9LQz9gzhPS",
+  "splTokenAccount": null,
+  "splToken": null,
+  "goLiveDate": "2022-07-23T00:00:00Z",
+  "endSettings": {
+    "endSettingType": "Amount",
+    "number": 10
+  },
+  "whitelistMintSettings": null,
+  "hiddenSettings": null,
+  "uploadMethod": "bundlr",
+  "awsS3Bucket": null,
+  "retainAuthority": true,
+  "isMutable": true,
+  "creators": [
+    {
+      "address": "GkbcGkYAfypfDtfc5oSPFNYXvfJoaUhUPq9LQz9gzhPS",
+      "share": 100
+    }
+  ]
+}
