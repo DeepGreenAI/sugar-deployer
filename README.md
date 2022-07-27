@@ -31,7 +31,6 @@ mainnet:
 
 This is the script that deploys the candy machine. The first step is that it will run the validate command which will check that all files in the assets folder are in the correct format. The next thing this script will do is run the upload command which uploadss assets to the specified storage (bundlr arweave) and creates the cache file for the Candy Machine. The script will then deploy the candy machine and verify that all items in the cache file have been successfully written on-chain. Finally the script will run the show command which displays the on-chain config of an existing candy machine.
 
-devnet:
 > ```bash
 > bash 3-deploy-candy-machine.bash
 > ```
@@ -40,7 +39,6 @@ devnet:
 
 The update script will be used for making changes to the live candy machine. You will simply need to update the config.json to the desired config and then run the update bash script.
 
-devnet:
 > ```bash
 > bash 4-update-candy-machine.bash
 
@@ -48,6 +46,5 @@ devnet:
 
 The withdraw and destroy script will first withdraw all of the solana that is reserved for paying rent from the candy machine. It will then delete the cache.json file so that a new candy machine can be deployed.
 
-devnet:
 > ```bash
 > bash 5-withdraw-rent-and-destroy-candy-machine.bash
